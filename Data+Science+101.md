@@ -13,7 +13,7 @@ import pandas_datareader.data as pdr
 
 
 ```python
-fcx = pdr.get_data_yahoo('FCX')
+fcx = pdr.ReadData('FCX', 'google')
 ```
 
 
