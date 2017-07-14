@@ -8,12 +8,12 @@ import cufflinks as cf
 
 
 ```python
-import pandas_datareader.data as pdr
+import pandas_datareader as pdr
 ```
 
 
 ```python
-fcx = pdr.ReadData('FCX', 'google')
+fcx = pdr.DataReader('FCX', 'google')
 ```
 
 
